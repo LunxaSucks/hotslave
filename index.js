@@ -41,7 +41,12 @@ Bot.on("message", message => {
         .addField("3 - !commands","======================")
         .setColor("#242F5E")
         message.channel.sendEmbed(Embed)
-        
+        break;
+        case "leaf2":
+        message.channel.send("Remember! Reality's an Illusion, the Universe is a hologram, Buy gold Bye!!")
+        break;
+        case "leaf1":
+        message.channel.send("He doesn't rank Supreme")
     }
 
     if(message.content == "hi"){
